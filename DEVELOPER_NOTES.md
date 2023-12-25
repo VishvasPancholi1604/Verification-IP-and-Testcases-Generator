@@ -10,7 +10,7 @@
 This is a hobby project developed independently and is not associated with any organization or corporation. 
 
 ## Contributing
-If you'd like to contribute to the development of this script, follow these steps:
+If you'd like to contribute to the development of this Projec, Please follow these steps:
 1. **Fork the Repository:**
    - Fork this repository to your GitHub account.
 2. **Create a New Branch:**
