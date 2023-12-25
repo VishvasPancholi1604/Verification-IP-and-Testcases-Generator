@@ -69,7 +69,10 @@ The script also generates a VIP compilation and simulation Python script in the 
 
 To use the Testcase Generator mode, use the `-t` switch and run the script from the SIM directory.
 
-The script will prompt the user to enter testcase names separated by commas. Each generated testcase file will follow the format: `prefix + project name + testcase name + '_test' + '.sv'`. The class name within the file will be `prefix + project name + testcase name + '_test_c'`.
+The script will prompt the user to enter testcase names separated by commas. Each generated testcase file will follow the below format: 
+`prefix + project name + testcase name + '_test' + '.sv'`. 
+
+The class name within the file will be `prefix + project name + testcase name + '_test_c'`.
 
 The script ignores the prefix, project name, and the '_test' suffix if they are already present in the user-provided testcase names to prevent duplication.
 
