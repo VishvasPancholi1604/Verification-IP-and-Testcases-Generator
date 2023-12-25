@@ -1,9 +1,5 @@
 # Verification-IP-and-Testcases-Generator
 
-Certainly! Based on the detailed information you provided, here's a template for your README file. Feel free to modify and expand upon it to suit your specific needs:
-
-# Verification IP and Testcase Generator Script
-
 This Python script facilitates the creation of a Verification IP (VIP) or UVC (Universal Verification Component) for various architectures. The script currently supports two modes: VIP Generator and Testcase Generator.
 
 ## VIP Generator
