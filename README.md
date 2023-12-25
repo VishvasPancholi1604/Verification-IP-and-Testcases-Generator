@@ -87,7 +87,7 @@ The script provides flexibility through various configurable parameters, which c
 
 3. **Developer Name:**
    - Variable Name: `developer_name`
-   - Description: The `developer_name` variable allows users to specify the name of the developer, which will be included in the header of each generated .sv file. Users can edit this variable to personalize the attribution inside the files.
+   - Description: The `developer_name` variable allows users to specify the name of the developer, which will be included in the header of each generated `.sv` file. Users can edit this variable to personalize the attribution inside the files.
 
 ### Modifying Configurable Parameters
 
