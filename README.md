@@ -29,7 +29,7 @@ The default mode of the script is the VIP Generator. It prompts the user to ente
 * NOTE : 
 User can enter 'all' as input for selecting each components.
 User can enter index of components which has to be ignored by starting with '!'.
-    - i.e. !9,5 will create select each components except referance model and monitor.
+    - i.e. !9,5 will create each components except referance model and monitor.
 
 #### Environment Support
 
