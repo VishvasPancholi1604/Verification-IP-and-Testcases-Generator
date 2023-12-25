@@ -35,19 +35,29 @@ If the `-e` command line argument is not used, a single environment will be crea
 
 The script automatically organizes files into the following structure:
 
-Project_folder (prefix + project name)
-|__ DEVELOPMENT
-    |__ ENV
-        |__ ENV files.sv
-    |__ RTL
-    |__ SIM
-        |__ compilation and simulation script.py
-    |__ SRC
-        |__ agents drivers monitors package interface sequence transaction files.sv
-    |__ TEST
-        |__ base test and testcases files.sv
-    |__ TOP
-        |__ top module file.sv
+.
+└── project_name/
+    └── DEVELOPMENT/
+        ├── ENV/
+        │   └── environment_files.sv
+        ├── RTL/
+        │   └── dut_folder_if_required_by_user
+        ├── SIM/
+        │   └── compilation_and_simulation_script.py
+        ├── SRC/
+        │   ├── transaction_files.sv
+        │   ├── sequence_files.sv
+        │   ├── sequencer_files.sv
+        │   ├── driver_files.sv
+        │   ├── monitor_files.sv
+        │   ├── agent_files.sv
+        │   ├── package_file.sv
+        │   └── interface_file.sv
+        ├── TEST/
+        │   ├── base_test_file.sv
+        │   └── testcases_files.sv
+        └── TOP/
+            └── top_module.sv
 
 The script also generates a VIP compilation and simulation Python script in the SIM directory.
 
