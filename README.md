@@ -13,18 +13,23 @@ This Python script facilitates the creation of a Verification IP (VIP) or UVC (U
 
 The default mode of the script is the VIP Generator. It prompts the user to enter the project name and select components from the following list:
 
-    - transaction
-    - sequence
-    - sequencer
-    - driver
-    - monitor
-    - agent
-    - scoreboard
-    - subscriber
-    - reference_model
-    - environment
-    - base_test
-    - interface
+    1. transaction
+    2. sequence
+    3. sequencer
+    4. driver
+    5. monitor
+    6. agent
+    7. scoreboard
+    8. subscriber
+    9. reference_model
+    10. environment
+    11. base_test
+    12. interface
+
+* NOTE : 
+User can enter 'all' as input for selecting each components.
+User can enter index of components which has to be ignored by starting with '!'
+i.e. !9,5 will create select each components except referance model and monitor.
 
 #### Environment Support
 
