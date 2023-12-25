@@ -35,6 +35,7 @@ If the `-e` command line argument is not used, a single environment will be crea
 
 The script automatically organizes files into the following structure:
 
+```
 .
 └── project_name/
     └── DEVELOPMENT/
@@ -58,6 +59,7 @@ The script automatically organizes files into the following structure:
         │   └── testcases_files.sv
         └── TOP/
             └── top_module.sv
+```
 
 The script also generates a VIP compilation and simulation Python script in the SIM directory.
 
