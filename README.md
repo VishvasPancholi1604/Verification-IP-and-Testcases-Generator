@@ -1,8 +1,13 @@
 # Verification-IP-and-Testcases-Generator
 
-This Python script facilitates the creation of a Verification IP (VIP) or UVC (Universal Verification Component) for various architectures. The script currently supports two modes: VIP Generator and Testcase Generator.
+This Python script facilitates the creation of a Verification IP (VIP) or UVC (Universal Verification Component) for various architectures. The script currently supports two modes: 
 
+    1. VIP Generator 
+    2. Testcase Generator
+
+##--------------------
 ## VIP Generator
+##--------------------
 
 ### Usage
 
@@ -63,7 +68,9 @@ The script automatically organizes files into the following structure:
 
 The script also generates a VIP compilation and simulation Python script in the SIM directory.
 
+##--------------------
 ## Testcase Generator
+##--------------------
 
 ### Usage
 
