@@ -6,7 +6,7 @@ This Python script facilitates the creation of a Verification IP (VIP) or UVC (U
     2. Testcase Generator
 
 
-## VIP Generator
+## 1. VIP Generator
 --------------------
 
 ### Usage
@@ -69,7 +69,7 @@ The script automatically organizes files into the following structure:
 The script also generates a VIP compilation and simulation Python script in the SIM directory.
 
 
-## Testcase Generator
+## 2. Testcase Generator
 ----------------------
 
 ### Usage
