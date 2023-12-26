@@ -1,8 +1,9 @@
+import os
 import argparse
 
 # find project name from path
 # extracts project name from the current path
-def find_project_name(path):
+def find_project_name(path, prefix):
     directories = path.split(os.path.sep)
     for i in range(len(directories) - 1, 0, -1):
         if directories[i].startswith(prefix):
