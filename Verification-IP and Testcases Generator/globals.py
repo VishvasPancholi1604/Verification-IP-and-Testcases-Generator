@@ -67,7 +67,7 @@ if args.testcases == False:
     project_name = input(f'Enter the Project Name \n[NOTE : {project_name_note}] \n>> ')
 else:
     current_dir = os.getcwd()
-    project_name = find_project_name(current_dir)
+    project_name = find_project_name(current_dir, prefix)
 project = prefix + project_name
 
 # project folder name declaration
