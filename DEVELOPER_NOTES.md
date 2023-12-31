@@ -27,6 +27,6 @@ If you'd like to contribute to the development of this script, Please follow the
 If you encounter any issues or have suggestions for improvements, please use the GitHub issue tracker. Include detailed information about the problem and steps to reproduce it.
 
 ## Getting Help
-If you need assistance or have questions, feel free to reach out through GitHub issues or contact the developer via email at vishvaspancholi.ec@gmail.com.
+If you need assistance or have questions, feel free to reach out through GitHub issues or contact via email at vishvaspancholi.ec@gmail.com.
 
 Happy coding!
